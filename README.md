@@ -1,5 +1,7 @@
 # isotope_fw_metric_analysis
 
+[日本語版はこちら](README_ja.md)
+
 Global analysis of how latitude, temperature and temperature seasonality shape the structure of freshwater food webs, using stable-isotope similarity networks built from the IsoFresh database (606 food webs with at least 10 taxa).
 
 ## Summary of findings
