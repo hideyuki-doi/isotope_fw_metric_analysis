@@ -1,0 +1,4 @@
+"driver","outcome","direct_effect","indirect_via_Richness","indirect_via_PreyArea_direct","indirect_via_Richness_then_PreyArea","total_indirect","total_effect"
+"Temp_Seasonality","Connectance_z",-0.1676,-0.06491369,-0.03467502,-0.022741341984,-0.122330051984,-0.289930051984
+"Temp_Seasonality","zNODF_z",-0.0893,-0.13147126,0.00160737,0.001054181104,-0.128809708896,-0.218109708896
+"Temp_Seasonality","Strength_z",-0.0827,-0.14319369,-0.01655223,-0.010855651216,-0.170601571216,-0.253301571216

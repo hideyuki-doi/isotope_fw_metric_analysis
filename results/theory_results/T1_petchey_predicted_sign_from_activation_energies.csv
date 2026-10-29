@@ -1,0 +1,5 @@
+group,E_A,E_H,E_sum,dlog10_lambdaH,predicted_effect_of_warming_on_connectance,temp_range
+Freshwater ectotherm vertebrates (fish),0.31,-0.46,-0.15000000000000002,-0.25943437116822,increase,-0.9 to 27.1 deg C (5-95% of webs)
+Freshwater invertebrates,0.58,-0.56,0.019999999999999907,0.03459124948909584,~none,-0.9 to 27.1 deg C (5-95% of webs)
+All taxa pooled,0.42,-0.3,0.12,0.20754749693457597,decrease,-0.9 to 27.1 deg C (5-95% of webs)
+Marine ectotherm vertebrates,0.93,-0.09,0.8400000000000001,1.452832478542032,decrease,-0.9 to 27.1 deg C (5-95% of webs)

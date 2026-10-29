@@ -1,0 +1,68 @@
+
+Structural Equation Model of sem_mod 
+
+Call:
+  Richness_z ~ Exog_z
+  PreyArea_z ~ Exog_z + Richness_z
+  Connectance_z ~ Exog_z + Richness_z + PreyArea_z
+  zNODF_z ~ Exog_z + Richness_z + PreyArea_z
+  Strength_z ~ Exog_z + Richness_z + PreyArea_z
+
+    AIC
+ 5319.255
+
+---
+Tests of directed separation:
+
+                    Independ.Claim Test.Type       DF Crit.Value P.Value    
+     zNODF_z ~ Connectance_z + ...      coef 496.3640     2.1433  0.0326   *
+  Strength_z ~ Connectance_z + ...      coef 458.3792    14.9936  0.0000 ***
+        Strength_z ~ zNODF_z + ...      coef 433.6924    -0.7413  0.4589    
+
+--
+Global goodness-of-fit:
+
+Chi-Squared = 179.095 with P-value = 0 and on 3 degrees of freedom
+Fisher's C = 196.81 with P-value = 0 and on 6 degrees of freedom
+
+---
+Coefficients:
+
+       Response  Predictor Estimate Std.Error       DF Crit.Value P.Value
+     Richness_z     Exog_z  -0.1957    0.0667  12.3876    -2.9335  0.0122
+     PreyArea_z     Exog_z  -0.1227    0.0698  49.3176    -1.7571  0.0851
+     PreyArea_z Richness_z   0.4112    0.0432 472.9647     9.5260  0.0000
+  Connectance_z     Exog_z  -0.1676    0.0534  15.7788    -3.1378  0.0064
+  Connectance_z Richness_z   0.3317    0.0487 392.1997     6.8165  0.0000
+  Connectance_z PreyArea_z   0.2826    0.0473 431.0750     5.9727  0.0000
+        zNODF_z     Exog_z  -0.0893    0.0419 202.8345    -2.1310  0.0343
+        zNODF_z Richness_z   0.6718    0.0422 365.0420    15.9072  0.0000
+        zNODF_z PreyArea_z  -0.0131    0.0414 400.5053    -0.3156  0.7525
+     Strength_z     Exog_z  -0.0827    0.0371  14.6621    -2.2288  0.0419
+     Strength_z Richness_z   0.7317    0.0282 498.6023    25.9157  0.0000
+     Strength_z PreyArea_z   0.1349    0.0266 502.3908     5.0782  0.0000
+  Std.Estimate    
+       -0.1957   *
+       -0.1227    
+        0.4112 ***
+       -0.1676  **
+        0.3317 ***
+        0.2826 ***
+       -0.0893   *
+        0.6718 ***
+       -0.0131    
+       -0.0827   *
+        0.7317 ***
+        0.1349 ***
+
+  Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05
+
+---
+Individual R-squared:
+
+       Response method Marginal Conditional
+     Richness_z   none     0.04        0.73
+     PreyArea_z   none     0.20        0.67
+  Connectance_z   none     0.33        0.53
+        zNODF_z   none     0.46        0.56
+     Strength_z   none     0.70        0.88

@@ -1,0 +1,4 @@
+"driver","outcome","direct_effect","indirect_via_Richness","indirect_via_PreyArea_direct","indirect_via_Richness_then_PreyArea","total_indirect","total_effect"
+"Latitude","Connectance_z",-0.1436,-0.0891888,-0.00778572,-0.03306650688,-0.13004102688,-0.27364102688
+"Latitude","zNODF_z",-0.0629,-0.1827024,0.00030438,0.00129272352,-0.18110529648,-0.24400529648
+"Latitude","Strength_z",-0.0994,-0.1977984,-0.00368994,-0.01567143776,-0.21715977776,-0.31655977776

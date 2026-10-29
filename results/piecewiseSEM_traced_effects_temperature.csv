@@ -1,0 +1,4 @@
+"driver","outcome","direct_effect","indirect_via_Richness","indirect_via_PreyArea_direct","indirect_via_Richness_then_PreyArea","total_indirect","total_effect"
+"Temperature","Connectance_z",0.1273,0.1086673,0.0245525,0.038632292125,0.171852092125,0.299152092125
+"Temperature","zNODF_z",0.0925,0.21904176,-0.00131516,-0.002069347126,0.215657252874,0.308157252874
+"Temperature","Strength_z",0.0496,0.24021711,0.01171688,0.018436001668,0.270369991668,0.319969991668

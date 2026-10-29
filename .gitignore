@@ -1,0 +1,14 @@
+# raw data (IsoFresh database; obtain from the original source)
+data/*
+!data/README.md
+work/
+# large / intermediate files
+*.RData
+*.rds
+worldclim_data/
+hydrolakes_data/
+*.log
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store

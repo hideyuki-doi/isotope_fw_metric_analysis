@@ -1,0 +1,88 @@
+Response,Predictor,Estimate,Std.Error,DF,Crit.Value,P.Value,Std.Estimate,Sig,driver,model
+Richness_z,Exog_z,-0.2854,0.0814,14.6662,-3.507,0.0033,-0.2854,**,Latitude,base
+PreyArea_z,Exog_z,-0.05,0.0843,25.3198,-0.593,0.5584,-0.05,,Latitude,base
+PreyArea_z,Richness_z,0.411,0.0455,448.2302,9.0279,0,0.411,***,Latitude,base
+Connectance_z,Exog_z,-0.1337,0.0605,151.8015,-2.2117,0.0285,-0.1337,*,Latitude,base
+Connectance_z,Richness_z,0.3388,0.0517,377.6585,6.5531,0,0.3388,***,Latitude,base
+Connectance_z,PreyArea_z,0.2864,0.0491,410.9032,5.827,0,0.2864,***,Latitude,base
+zNODF_z,Exog_z,-0.0605,0.0554,20.5456,-1.0917,0.2876,-0.0605,,Latitude,base
+zNODF_z,Richness_z,0.6746,0.0446,331.5531,15.1097,0,0.6746,***,Latitude,base
+zNODF_z,PreyArea_z,-0.0183,0.0431,369.9112,-0.4253,0.6708,-0.0183,,Latitude,base
+Strength_z,Exog_z,-0.1016,0.0415,196.1453,-2.4489,0.0152,-0.1016,*,Latitude,base
+Strength_z,Richness_z,0.7293,0.0294,464.8873,24.8163,0,0.7293,***,Latitude,base
+Strength_z,PreyArea_z,0.1365,0.0273,469.8709,4.9993,0,0.1365,***,Latitude,base
+Richness_z,Exog_z,-0.2035,0.0952,19.2813,-2.1376,0.0456,-0.2035,*,Latitude,+ sampling effort
+Richness_z,N_z,0.7386,0.0544,376.652,13.581,0,0.7386,***,Latitude,+ sampling effort
+PreyArea_z,Exog_z,-0.0308,0.082,19.9086,-0.376,0.7109,-0.0308,,Latitude,+ sampling effort
+PreyArea_z,Richness_z,0.4462,0.0505,408.3786,8.832,0,0.4462,***,Latitude,+ sampling effort
+PreyArea_z,N_z,-0.0924,0.0586,215.8543,-1.5785,0.1159,-0.0924,,Latitude,+ sampling effort
+Connectance_z,Exog_z,-0.1353,0.0604,149.9008,-2.2389,0.0266,-0.1353,*,Latitude,+ sampling effort
+Connectance_z,Richness_z,0.3165,0.0559,339.6195,5.6646,0,0.3165,***,Latitude,+ sampling effort
+Connectance_z,PreyArea_z,0.2905,0.0493,408.2707,5.893,0,0.2905,***,Latitude,+ sampling effort
+Connectance_z,N_z,0.0553,0.053,182.2172,1.0439,0.2979,0.0553,,Latitude,+ sampling effort
+zNODF_z,Exog_z,-0.0634,0.0563,20.8156,-1.1267,0.2727,-0.0634,,Latitude,+ sampling effort
+zNODF_z,Richness_z,0.6654,0.0479,310.1419,13.8787,0,0.6654,***,Latitude,+ sampling effort
+zNODF_z,PreyArea_z,-0.0174,0.0432,367.9534,-0.4032,0.687,-0.0174,,Latitude,+ sampling effort
+zNODF_z,N_z,0.0224,0.0438,204.9647,0.5109,0.6099,0.0224,,Latitude,+ sampling effort
+Strength_z,Exog_z,-0.1038,0.0418,8.2392,-2.4856,0.037,-0.1038,*,Latitude,+ sampling effort
+Strength_z,Richness_z,0.6981,0.0325,438.6908,21.4913,0,0.6981,***,Latitude,+ sampling effort
+Strength_z,PreyArea_z,0.1415,0.0273,466.4342,5.1884,0,0.1415,***,Latitude,+ sampling effort
+Strength_z,N_z,0.0777,0.035,219.8479,2.2163,0.0277,0.0777,*,Latitude,+ sampling effort
+Richness_z,Exog_z,0.3418,0.0722,215.5567,4.7305,0,0.3418,***,Temperature,base
+PreyArea_z,Exog_z,0.1141,0.0774,82.4775,1.474,0.1443,0.1141,,Temperature,base
+PreyArea_z,Richness_z,0.4024,0.0457,442.3295,8.8065,0,0.4024,***,Temperature,base
+Connectance_z,Exog_z,0.1166,0.0603,164.307,1.9342,0.0548,0.1166,,Temperature,base
+Connectance_z,Richness_z,0.3427,0.0518,368.7443,6.618,0,0.3427,***,Temperature,base
+Connectance_z,PreyArea_z,0.2811,0.0493,415.2186,5.7003,0,0.2811,***,Temperature,base
+zNODF_z,Exog_z,0.0958,0.0529,31.0679,1.811,0.0798,0.0958,,Temperature,base
+zNODF_z,Richness_z,0.6696,0.0443,318.4546,15.1189,0,0.6696,***,Temperature,base
+zNODF_z,PreyArea_z,-0.0235,0.0431,370.8604,-0.5443,0.5865,-0.0235,,Temperature,base
+Strength_z,Exog_z,0.049,0.0424,16.9254,1.1575,0.2631,0.049,,Temperature,base
+Strength_z,Richness_z,0.7351,0.0296,462.4682,24.8114,0,0.7351,***,Temperature,base
+Strength_z,PreyArea_z,0.1357,0.0275,463.7333,4.9421,0,0.1357,***,Temperature,base
+Richness_z,Exog_z,0.3172,0.0801,64.286,3.9588,2e-4,0.3172,***,Temperature,+ sampling effort
+Richness_z,N_z,0.73740000000000006,0.0538,378.8712,13.7143,0,0.73740000000000006,***,Temperature,+ sampling effort
+PreyArea_z,Exog_z,0.0972,0.0768,66.9097,1.2656,0.21,0.0972,,Temperature,+ sampling effort
+PreyArea_z,Richness_z,0.4354,0.0509,401.4008,8.5579,0,0.4354,***,Temperature,+ sampling effort
+PreyArea_z,N_z,-0.0857,0.0585,214.5685,-1.4658,0.1442,-0.0857,,Temperature,+ sampling effort
+Connectance_z,Exog_z,0.1201,0.0603,162.2111,1.9922,0.048,0.1201,*,Temperature,+ sampling effort
+Connectance_z,Richness_z,0.319,0.0561,330.8481,5.6839,0,0.319,***,Temperature,+ sampling effort
+Connectance_z,PreyArea_z,0.2853,0.0494,412.3323,5.7688,0,0.2853,***,Temperature,+ sampling effort
+Connectance_z,N_z,0.058,0.0532,182.1784,1.0899,0.2772,0.058,,Temperature,+ sampling effort
+zNODF_z,Exog_z,0.1,0.0538,32.7889,1.8593,0.072,0.1,,Temperature,+ sampling effort
+zNODF_z,Richness_z,0.6588,0.0476,296.0066,13.8282,0,0.6588,***,Temperature,+ sampling effort
+zNODF_z,PreyArea_z,-0.0228,0.0432,370.4942,-0.5274,0.5983,-0.0228,,Temperature,+ sampling effort
+zNODF_z,N_z,0.0262,0.0436,205.0899,0.6012,0.5483,0.0262,,Temperature,+ sampling effort
+Strength_z,Exog_z,0.056,0.0418,15.9387,1.3413,0.1986,0.056,,Temperature,+ sampling effort
+Strength_z,Richness_z,0.7024,0.0329,437.2209,21.3728,0,0.7024,***,Temperature,+ sampling effort
+Strength_z,PreyArea_z,0.1403,0.0274,463.8418,5.1186,0,0.1403,***,Temperature,+ sampling effort
+Strength_z,N_z,0.079,0.0355,224.1992,2.2252,0.0271,0.079,*,Temperature,+ sampling effort
+Richness_z,Exog_z,-0.1933,0.0741,14.4986,-2.6069,0.0202,-0.1933,*,Seasonality,base
+PreyArea_z,Exog_z,-0.1346,0.0758,59.5938,-1.7752,0.081,-0.1346,,Seasonality,base
+PreyArea_z,Richness_z,0.4071,0.045,441.273,9.0481,0,0.4071,***,Seasonality,base
+Connectance_z,Exog_z,-0.1453,0.0553,11.7519,-2.6276,0.0224,-0.1453,*,Seasonality,base
+Connectance_z,Richness_z,0.3432,0.0509,369.3056,6.7435,0,0.3432,***,Seasonality,base
+Connectance_z,PreyArea_z,0.278,0.0492,398.0657,5.6552,0,0.278,***,Seasonality,base
+zNODF_z,Exog_z,-0.082,0.0467,11.7276,-1.7567,0.105,-0.082,,Seasonality,base
+zNODF_z,Richness_z,0.6756,0.044,332.2751,15.3631,0,0.6756,***,Seasonality,base
+zNODF_z,PreyArea_z,-0.0197,0.0431,361.7163,-0.4581,0.6471,-0.0197,,Seasonality,base
+Strength_z,Exog_z,-0.0806,0.0399,14.1815,-2.0188,0.0628,-0.0806,,Seasonality,base
+Strength_z,Richness_z,0.7352,0.0292,463.3208,25.1956,0,0.7352,***,Seasonality,base
+Strength_z,PreyArea_z,0.134,0.0274,465.0088,4.89,0,0.134,***,Seasonality,base
+Richness_z,Exog_z,-0.1604,0.082,37.7267,-1.9562,0.0579,-0.1604,,Seasonality,+ sampling effort
+Richness_z,N_z,0.7573,0.0547,386.0039,13.8512,0,0.7573,***,Seasonality,+ sampling effort
+PreyArea_z,Exog_z,-0.1219,0.0749,48.5587,-1.6262,0.1104,-0.1219,,Seasonality,+ sampling effort
+PreyArea_z,Richness_z,0.4392,0.05,396.8207,8.7885,0,0.4392,***,Seasonality,+ sampling effort
+PreyArea_z,N_z,-0.0863,0.0582,213.8583,-1.4808,0.1401,-0.0863,,Seasonality,+ sampling effort
+Connectance_z,Exog_z,-0.1463,0.0561,12.8804,-2.6104,0.0217,-0.1463,*,Seasonality,+ sampling effort
+Connectance_z,Richness_z,0.3217,0.0551,329.7676,5.8438,0,0.3217,***,Seasonality,+ sampling effort
+Connectance_z,PreyArea_z,0.2825,0.0493,400.4349,5.7276,0,0.2825,***,Seasonality,+ sampling effort
+Connectance_z,N_z,0.053900000000000003,0.053,168.0175,1.0183,0.31,0.053900000000000003,,Seasonality,+ sampling effort
+zNODF_z,Exog_z,-0.0825,0.0477,12.6562,-1.732,0.1076,-0.0825,,Seasonality,+ sampling effort
+zNODF_z,Richness_z,0.6683,0.0472,308.9678,14.1477,0,0.6683,***,Seasonality,+ sampling effort
+zNODF_z,PreyArea_z,-0.0192,0.0432,364.7576,-0.4447,0.6568,-0.0192,,Seasonality,+ sampling effort
+zNODF_z,N_z,0.0188,0.0435,200.0628,0.4323,0.666,0.0188,,Seasonality,+ sampling effort
+Strength_z,Exog_z,-0.0834,0.0403,16.5278,-2.0713,0.0543,-0.0834,,Seasonality,+ sampling effort
+Strength_z,Richness_z,0.7039,0.0323,434.6345,21.7811,0,0.7039,***,Seasonality,+ sampling effort
+Strength_z,PreyArea_z,0.1389,0.0274,465.9218,5.0764,0,0.1389,***,Seasonality,+ sampling effort
+Strength_z,N_z,0.0781,0.0354,235.4993,2.2052,0.0284,0.0781,*,Seasonality,+ sampling effort
